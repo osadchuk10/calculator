@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Digital-7';
+  src: url('fonts/Digital-7.woff2') format('woff2'),
+    url('fonts/Digital-7.woff') format('woff'),
+    url('fonts/Digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  border: 2px solid rgb(49, 46, 41);
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(70, 73, 75);
+  padding: 5px;
+  margin: 5px;
+  align-content: center;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  background-color: rgb(124, 126, 128);
+  cursor: pointer;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.calc-display {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 310px;
+  height: 60px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgb(97, 133, 122);
+  font-family: 'Digital-7';
+  font-size: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.on-off-symb {
+  background-color: rgb(139, 68, 68);
+}
+
+.on-off-symb:hover {
+  background-color: rgb(193, 121, 121);
+}
+
+.c-symb,
+.plus-minus-symb {
+  background-color: rgb(153, 110, 31);
+}
+
+.c-symb:hover,
+.plus-minus-symb:hover {
+  background-color: rgb(207, 199, 84);
+}
+
+.culc-operation {
+  background-color: black;
+}
+
+.culc-operation:hover {
+  background-color: rgb(61, 61, 61);
+}
