@@ -14,8 +14,8 @@
     </div>
     <div class="calc-body">
       <div class="display-container">
-        <div class="calc-display">
-          
+        <div class="calc-display-container">
+          <span class="calc-display"></span>
         </div>
 
       </div>
@@ -31,7 +31,7 @@
             </div>
             <div class="c-symb btn">C</div>
             <div class="plus-minus-symb btn">±</div>
-            <div class="delete-symb btn culc-operation">
+            <div class="delete-symb btn calc-operation">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
               </svg>
@@ -41,25 +41,25 @@
             <div class="number btn">7</div>
             <div class="number btn">8</div>
             <div class="number btn">9</div>
-            <div class="divide-symb btn culc-operation">÷</div>
+            <div class="divide-symb btn calc-operation" data-operator="/">÷</div>
           </div>
           <div class="mid-numbers row">
             <div class="number btn">4</div>
             <div class="number btn">5</div>
             <div class="number btn">6</div>
-            <div class="multiply-symb btn culc-operation">×</div>
+            <div class="multiply-symb btn calc-operation" data-operator="*">×</div>
           </div>
           <div class="bottom-numbers row">
             <div class="number btn">1</div>
             <div class="number btn">2</div>
             <div class="number btn">3</div>
-            <div class="minus-symb btn culc-operation">-</div>
+            <div class="minus-symb btn calc-operation" data-operator="-">-</div>
           </div>
           <div class="bottom-symbols row">
             <div class="number btn">0</div>
             <div class="dot-symb number btn">.</div>
-            <div class="equal-symb btn culc-operation">=</div>
-            <div class="plus-symb btn culc-operation">+</div>
+            <div class="equal-symb btn calc-operation-equal">=</div>
+            <div class="plus-symb btn calc-operation" data-operator="+">+</div>
           </div>
         </div>
 

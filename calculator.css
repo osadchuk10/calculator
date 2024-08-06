@@ -52,8 +52,7 @@
 .number {
   font-size: 3rem;
 }
-
-.calc-display {
+.calc-display-container{
   border: 5px solid black;
   border-radius: 20px;
   width: 310px;
@@ -68,6 +67,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+}
+
+
+.calc-display {
+
 }
 
 .on-off-symb {
@@ -94,4 +99,13 @@
 
 .culc-operation:hover {
   background-color: rgb(61, 61, 61);
+}
+.blink {
+  animation: blink-animation 0.2s steps(1, start) 1;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
